@@ -46,7 +46,5 @@ public abstract class LibraryItem
     {
         if (publishedYear > 0)
             this.PublishedYear = publishedYear;
-    }
-
-    
+    }    
 }
