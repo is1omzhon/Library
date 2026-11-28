@@ -4,8 +4,7 @@ public class Magazine : LibraryItem
 {
     public int IssueNumber { get; }
 
-    public Magazine(int id, string title, int publishedYear, int issueNumber)
-        : base(id, title, publishedYear)
+    public Magazine(int id, string title, int publishedYear, int issueNumber):base(id, title, publishedYear)
     {
         IssueNumber = issueNumber;
     }
